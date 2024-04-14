@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/payment.css" />
+</head>
+
+<body>
+  <section class="content">
+    <header>
+      <h1 class="content-header">CineMax</h1>
+    </header>
+
+    <main class="main">
+      <form class="section-left" id="form" name="form">
+        <h6 class="left-header">Payment Method</h6>
+
+        <div class="radio-wrapper">
+
+          <div class="radio-one">
+            <input class="paypal-method" type="radio" id="paypal" name="paymentMethod" value="paypal" checked />
+            <div class="radio-flex">
+              <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M4.80098 19.3582L5.12103 17.1122H4.37422H0.640137L3.20066 0.748552C3.20066 0.748552 3.20065 0.641602 3.30734 0.641602H3.41403H9.70863C11.7357 0.641602 13.2293 1.06941 13.9761 1.92503C14.2962 2.35284 14.5096 2.78065 14.6163 3.20846C14.723 3.74322 14.723 4.27797 14.6163 5.02664V5.45445L14.9364 5.66836C15.2564 5.77531 15.4698 5.98921 15.6832 6.20312C16.0032 6.52397 16.2166 6.95178 16.2166 7.48654C16.3233 8.02131 16.3233 8.66302 16.1099 9.41168C15.8965 10.2673 15.6832 10.909 15.3631 11.5507C15.043 12.0855 14.6163 12.5133 14.1895 12.9411C13.7628 13.262 13.1226 13.4759 12.5892 13.6898C11.9491 13.7967 11.309 13.9037 10.5621 13.9037H10.0287C9.70863 13.9037 9.38857 14.0106 9.06851 14.2245C8.85513 14.4384 8.64175 14.7593 8.53507 15.0801V15.2941L7.89493 19.2513V19.3582V19.4652C7.89493 19.4652 7.89492 19.4652 7.78824 19.4652H4.80098V19.3582Z"
+                  fill="#263577" />
+                <path
+                  d="M15.3619 5.02667C15.3619 5.13362 15.3619 5.24058 15.2552 5.34753C14.4017 9.62562 11.6278 11.016 8.00045 11.016H6.18674C5.75998 11.016 5.33324 11.3369 5.33324 11.7647L4.37304 17.754L4.15967 19.4652C4.15967 19.7861 4.37304 20 4.58641 20H7.89375C8.3205 20 8.64057 19.6791 8.64057 19.3583V19.1444L9.2807 15.2941V15.0802C9.38739 14.6524 9.70745 14.4385 10.0275 14.4385H10.561C13.7616 14.4385 16.2154 13.155 16.8555 9.41172C17.1756 7.80743 16.9622 6.52401 16.2154 5.66839C16.0021 5.45448 15.682 5.24058 15.3619 5.02667Z"
+                  fill="#2199D6" />
+                <path
+                  d="M14.5087 4.70587C14.402 4.70587 14.2953 4.59891 14.0819 4.59891C13.9752 4.59891 13.7618 4.49196 13.6552 4.49196C13.1217 4.38501 12.5883 4.38501 12.0548 4.38501H7.14719C7.0405 4.38501 6.93381 4.38501 6.82712 4.49196C6.61375 4.59891 6.40038 4.81282 6.40038 5.02672L5.3335 11.6578V11.8717C5.44018 11.4439 5.76024 11.123 6.18699 11.123H8.0007C11.6281 11.123 14.402 9.62567 15.2555 5.45453C15.2555 5.34758 15.2555 5.24063 15.3622 5.13368C15.1488 5.02672 14.9354 4.91977 14.722 4.81282C14.6153 4.70587 14.5087 4.70587 14.5087 4.70587Z"
+                  fill="#252C5E" />
+                <path
+                  d="M6.40129 5.02675C6.40129 4.81285 6.61466 4.59894 6.82803 4.49199C6.93472 4.49199 7.04141 4.38504 7.1481 4.38504H12.0557C12.5892 4.38504 13.2293 4.38504 13.6561 4.49199C13.7628 4.49199 13.9761 4.49199 14.0828 4.59894C14.1895 4.59894 14.2962 4.70589 14.5096 4.70589C14.6163 4.70589 14.6163 4.7059 14.7229 4.81285C14.9363 4.9198 15.1497 5.02675 15.3631 5.1337C15.5765 3.52942 15.3631 2.4599 14.5096 1.49733C13.5494 0.427806 11.8424 0 9.70861 0H3.41402C2.98726 0 2.56051 0.320853 2.56051 0.748662L0 17.2193C0 17.5402 0.213376 17.861 0.533441 17.861H4.3742L5.33441 11.6578L6.40129 5.02675Z"
+                  fill="#263577" />
+              </svg>
+              <label class="pay" for="paypal">Paypal</label>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="radio-one_">
+          <input type="radio" id="pay" name="paymentMethod" value="pay" />
+          <div class="radio-flex">
+            <img class="apple" src="img/apple.png" alt="" />
+            <label class="pay" for="pay">Pay</label>
+          </div>
+        </div>
+        </div>
+
+        <span class="text">Or checkout using a credit card</span>
+
+
+
+        <div class="form-flex">
+          <p class="card-name_">Cardholder Name</p>
+          <input class="card-name" type="text" id="cardholdername" />
+        </div>
+
+        <div id="payment-form">
+          <div class="form-flex">
+            <p class="form-header">Card Number</p>
+            <input class="card_" id="number" name="cardNumber" placeholder="Ex:3111 1111 1111 1111" maxlength="19"
+            required />
+            <span id="cardNumberErrorMessage"></span>
+          </div>
+          <div class="form-flex">
+            <p class="form-header">Expiration</p>
+
+            <input class="card-one" type="text" id="e-date" placeholder="MM/YY" maxlength="5"
+            required />
+
+          </div>
+          <div class="form-flex">
+            <p class="form-header">CVV</p>
+
+            <input class="card-two" type="number" id="cvv" placeholder="CVV" maxlength="3"
+            required/>
+          </div>
+          
+          <div id="error-message"></div>
+  
+  </div>
+  <div class="postal-flex">
+    <p class="card-name_">Postal Code</p>
+    <input class="card-postal" type="text" id="postal-code" placeholder="Postal or ZIP code" />
+
+  </div>
+
+
+  </form>
+
+
+  <section class="section-right">
+    <div class="section-right-content">
+      <p class="right-header">Subtotal</p>
+      <p class="price">$4.99</p>
+    </div>
+    <div class="section-right-content">
+      <p class="right-header">Plan type</p>
+      <p class="price">Monthly</p>
+    </div>
+    <div class="section-right-content">
+      <p class="right-header">Monthly plan discount</p>
+      <p class="price">-$5</p>
+    </div>
+    <div class="line"></div>
+
+    <div class="section-right-content">
+      <p class="right-header">Billed Now</p>
+      <p class="price" id="now">$35</p>
+    </div>
+    <p class="right-text">You will be charged $5 every yearly thereafter while the subscription is active. Cancel any
+      time.</p>
+    <button class="pay-btn_" id="payButton" type="submit">
+      PAY
+    </button>
+  </section>
+  </main>
+  </section>
+
+
+ 
+  <script src="payScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+html, body {
+     margin: 0;
+    padding: 0; 
+    height: 100%;
+}
+.login-page .container{
+    display: flex;
+    height: 100vh;
+    
+    
+}
+.login-page-one{
+    width: 50%;
+    background-color: #B43FEB;
+    /* height: 150vh; */
+    
+   
+    
+}
+
+.login-page-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 403px;
+    height: 204px;
+    margin-top: 44px;
+    margin-left: 125px;
+    opacity: 0px;
+    justify-content: start;
+    text-align: left;
+}
+.heading-h5, .heading-p {
+    margin: 0; 
+}
+.heading-h5{
+    font-style: bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color:#F9F9F9;
+}
+.heading-p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #E3E9ED;
+}
+
+.slider{
+    width: 56px;
+    height: 8px;
+    opacity: 0px;
+    justify-content: left;
+    text-align: left;
+}
+figure{
+    margin: 0;
+}
+
+.img-mackbook{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    margin-top: 55px;
+
+}
+
+.login-page-img {
+     position: relative;
+    width: 100%;
+    right: 40px;
+}
+.img-mackbook {
+    position: absolute;
+    right: -40px;
+    z-index: 1; /* MacBook fotoğrafı üstte olacak */
+   width: 100%;
+}
+.img-pro{
+    width: 100%;
+    max-width: 100%; 
+    height: auto; 
+    max-height: 400px; 
+}
+.img-iphone-figure{
+    position: absolute;
+    top: 30px; 
+    left: 225px; 
+    z-index: 6;
+}
+.img-iphone {
+    max-width: 100%; 
+    height: auto; 
+    max-height: 300px;
+}
+
+
+
+.login-page-two{
+    width: 50%;
+    background-color:black;
+    
+   /* height: 153vh;   */
+    
+}
+.two-header{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color:  #F9F9F9;
+    margin-top: 7px;
+    
+    
+
+}
+h5{
+    margin: 0px;
+}
+.page-two-text{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+
+}
+.page-button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.page-button span{
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+}
+.button-span{
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+   
+}
+.two-button{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #29282F;
+    color: #F9F9F9;
+    padding: 7px;
+    margin-bottom: 20px;
+    border: none;
+}
+.two-text-header{
+    text-align: center;
+    font-style: bold;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color: #F9F9F9;
+    margin-bottom: 20px;
+}
+.header-or{
+     text-align: center;
+  color:  #78828A;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.two-input{
+   
+    /* padding: 15px 26rem 15px 15px; */
+     padding: 15px 15px 15px 15px; 
+
+
+     box-sizing: border-box;
+     width: 100%;
+    border-radius: 20px;
+    border: 1px;
+    
+
+    background-color: #29282F;
+    color: #F9F9F9;
+   
+ 
+}
+.two-input::placeholder{
+    color: #9CA4AB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+.name-text{
+    color:#78828A;
+    
+    margin-bottom: 20px;
+    margin-top: 10px;
+   
+}
+.forgot{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #B43FEB;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+p{
+    margin: 0px;
+}
+.btn-login{
+    /* padding: 15px 17rem 15px 17rem; */
+    padding: 15px 45% 15px 45%;
+    border-radius: 20px;
+    background-color: #B43FEB;
+    color: #F9F9F9;
+    border: none;
+    margin-bottom: 10px;
+    
+}
+.login-span{
+    
+font-size: 18px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0.005em;
+text-align: center;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn-login span{
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+}
+.account{
+    text-align: center;
+    color: #9CA4AB;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    margin-top: 10px;
+
+}
+.account .register{
+    
+
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.005em;
+text-align: left;
+margin-left: 8px;
+    color:#B43FEB;
+    
+}
+.btn-login:hover{
+    cursor: pointer;
+}
